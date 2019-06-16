@@ -5,4 +5,5 @@ Set of notes on different technologies.
 - [Docker](docker.md)
 - [.NET Core](dotnet.md)
 - [Git](git.md)
+- [Homebrew](homebrew.md)
 - [SSH](ssh.md)
