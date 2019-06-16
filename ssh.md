@@ -4,8 +4,8 @@
 
 ### ssh-keygen
 
-Generates a pair (public-private) of SSH keys.
+- `ssh-keygen -t rsa` : Generates a pair (public-private) of RSA keys.
 
 ### ssh-add
 
-Adds a private key to the SSH agent.
+- `ssh-add my_key` : Adds a private key to the SSH agent.
