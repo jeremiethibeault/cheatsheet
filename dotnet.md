@@ -1,4 +1,4 @@
-# .NET Core CLI
+# .NET Core
 
 ## Commands
 
