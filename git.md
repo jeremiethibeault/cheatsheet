@@ -38,3 +38,7 @@
 
 - `git rebase master` : Rebases the current branch from the `master` branch.
 - `git rebase -i HEAD~3` : Interactive rebase of the last 3 commits.
+
+### clean
+
+- `git clean -fdx` : Deletes all untracked files.
