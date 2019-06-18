@@ -6,4 +6,5 @@ Set of notes on different technologies.
 - [.NET Core](dotnet.md)
 - [Git](git.md)
 - [Homebrew](homebrew.md)
+- [MongoDB](mongo.md)
 - [SSH](ssh.md)
