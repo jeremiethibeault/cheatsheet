@@ -8,4 +8,4 @@
 
 ### ssh-add
 
-- `ssh-add my_key` : Adds a private key to the SSH agent.
+- `ssh-add ~/.ssh/my_key` : Adds a private key to the SSH agent.
