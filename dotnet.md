@@ -1,4 +1,4 @@
-# .NET Core
+# .NET
 
 ## Commands
 
@@ -19,7 +19,14 @@
 ### run
 
 - `dotnet run` : Builds and runs the project.
+- `dotnet watch run` : Builds and runs the project. Saving a file recompiles and re-runs.
 
 ### clean
 
 - `dotnet clean` : Cleans the build outputs of the project.
+
+### ef
+- `dotnet tool install --global dotnet-ef` : Installs ef commands
+MyPersistenceProject
+- `dotnet ef migrations add "DescriptionOfMigration" -p MyPersistenceProject -s MyAPIProject` : Adds a migration to the project.
+- `dotnet ef database drop -p MyPersistenceProject -s MyAPIProject` : Drops the database of the project.
