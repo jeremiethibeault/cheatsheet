@@ -29,3 +29,6 @@
 - `dotnet tool install --global dotnet-ef` : Installs ef commands.
 - `dotnet ef migrations add "DescriptionOfMigration" -p MyPersistenceProject -s MyAPIProject` : Adds a migration to the project.
 - `dotnet ef database drop -p MyPersistenceProject -s MyAPIProject` : Drops the database of the project.
+
+### user-secrets
+- `dotnet user-secrets list` : List all user secrets.
